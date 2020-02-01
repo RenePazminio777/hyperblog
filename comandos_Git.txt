@@ -11,6 +11,6 @@ git ls -al
 git status 
 clear
 _comando: crtl l
-git reset _codigo de version_ --hard
-git reset _codigo de version_ --sofd
+git reset _codigo de version_ --hard //regresar a una version anterior y eliminar todo lo posterior a esa version
+git reset _codigo de version_ --sofd //regresar a una version a anterior
 
