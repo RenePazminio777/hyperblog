@@ -1,0 +1,16 @@
+git init                            //Iniciar git
+git add _nombre de archivo_         // enviar al repositorio cambios de un archivo
+git add .                           // enviar cambios al repositorio de todos los archivos de la carpeta
+git commit -m "..."                 // guardar los cambios
+git code                            // abri code
+git code _nombre de archivo_        // abrir documento en code
+git log _nombre de archivo_         // 
+git show
+git ls
+git ls -al
+git status 
+clear
+_comando: crtl l
+git reset _codigo de version_ --hard
+git reset _codigo de version_ --sofd
+
