@@ -10,6 +10,7 @@ git show
 git ls
 git ls -al
 git status 
+git branch _nombre de cabecera_     //crear rama
 
 clear
 _comando: crtl l
@@ -23,8 +24,9 @@ git reset HEAD                       // Este es el comando para sacar archivos d
                                         a menos que cambiemos de opinión y los incluyamos 
                                         de nuevo en staging con git add, por supuesto.
 
-git checkout _codigo_ _archivo_      //regresar a una version anterior
-git checkout master _archivo_
+git checkout _codigo_ _archivo_         //regresar a una version anterior
+git checkout master _archivo_           //regresar al master
+git checkout _nombre de la cabecera_    //Permite moverme a una cabecera 
 
 git rm                              //elimina archivos de Git sin eliminar su historial del sistema de versiones
 git rm --cached                     //Elimina los archivos del área de Staging y del próximo commit pero los mantiene en nuestro disco duro.
